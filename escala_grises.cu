@@ -111,7 +111,7 @@ int main()
 
   int width=225, height=225;
   float m[225][225*3];
-  leer_data("image.dat",m);
+  leer_data("lena.dat",m);
   GrayScale(m,width,height);
   printf("HECHO\n");
   return EXIT_SUCCESS;
